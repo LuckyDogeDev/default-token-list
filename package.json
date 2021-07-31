@@ -1,23 +1,24 @@
 {
-  "name": "@sushiswap/default-token-list",
-  "version": "11.3.0",
-  "description": "◦ The SushiSwap default token list",
-  "main": "build/sushiswap-default.tokenlist.json",
+  "name": "@luckyfinance/default-token-list",
+  "version": "11.3.1",
+  "description": "◦ The LuckyFinance default token list",
+  "main": "build/luckyswap-default.tokenlist.json",
   "scripts": {
     "test": "mocha",
-    "build": "rimraf build && mkdir -p build && node internal/write.js > build/sushiswap-default.tokenlist.json",
+    "build": "rimraf build && mkdir -p build && node internal/write.js > build/luckyswap-default.tokenlist.json",
     "prepublishOnly": "npm test && npm run build",
     "sync": "node internal/sync.js"
   },
   "files": [
-    "build/sushiswap-default.tokenlist.json"
+    "build/luckyswap-default.tokenlist.json"
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sushiswap/default-token-list.git"
+    "url": "git+https://github.com/LuckyDogeDev/default-token-list.git"
   },
   "keywords": [
-    "sushiswap",
+    "luckyfinance",
+    "luckykswap",
     "default",
     "token",
     "list"
@@ -25,14 +26,14 @@
   "author": "Matthew Lilley <hello@matthewlilley.com>",
   "license": "GPL-3.0-or-later",
   "bugs": {
-    "url": "https://github.com/sushiswap/default-token-list/issues"
+    "url": "https://github.com/LuckyDogeDev/default-token-list/issues"
   },
-  "homepage": "https://github.com/sushiswap/default-token-list#readme",
+  "homepage": "https://github.com/LuckyDogeDev/default-token-list#readme",
   "devDependencies": {
     "@ethersproject/address": "^5.0.2",
     "@ethersproject/solidity": "^5.3.0",
     "@octokit/rest": "^18.6.2",
-    "@sushiswap/sdk": "^5.0.0-canary.22",
+    "@luckyfinance/sdk": "^3.1.10",
     "@uniswap/token-lists": "^1.0.0-beta.19",
     "ajv": "^6.12.3",
     "chai": "^4.2.0",
@@ -40,5 +41,9 @@
     "mocha": "^8.0.1",
     "rimraf": "^3.0.2",
     "xlsx": "^0.17.0"
-  }
+  },
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {}
 }

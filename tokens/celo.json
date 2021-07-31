@@ -45,7 +45,7 @@
     "symbol": "CELO",
     "decimals": 18,
     "chainId": 42220,
-    "logoURI": "https://raw.githubusercontent.com/sushiswap/icons/master/token/celo.jpg"
+    "logoURI": "https://raw.githubusercontent.com/luckydogedev/icons/master/token/celo.jpg"
   },
   {
     "address": "0x64dEFa3544c695db8c535D289d843a189aa26b98",
@@ -109,6 +109,6 @@
     "symbol": "cDOGE",
     "decimals": 9,
     "chainId": 42220,
-    "logoURI": "https://raw.githubusercontent.com/sushiswap/icons/master/token/doge.jpg"
+    "logoURI": "https://raw.githubusercontent.com/luckydogedev/icons/master/token/doge.jpg"
   }
 ]
